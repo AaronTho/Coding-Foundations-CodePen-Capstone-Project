@@ -1,0 +1,57 @@
+.hero-section {
+    display: flex;
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: 100%;
+    height: 570px;
+    background-image: radial-gradient(gray, black);
+} 
+
+.hero-section > .left-column {
+    width: 475px;
+    height: 200px;
+    color: white;
+    margin-left: 40px;
+}
+
+.hero-section > .left-column >.copy-headline {
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+.hero-section > .left-column > .copy-tagline {
+    font-size: 1.5rem;
+    color: #B3B3B3;
+    padding: 0.5rem 0;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    line-height: 1.5;
+}
+
+.hero-section > .right-column {
+    margin-left: 100px;
+}
+
+.screenshot > .screenshot-text {
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    color: white;
+    margin: 30px 0px 0px 0px;
+
+}
+
+.screenshot > .screenshot-text a {
+    text-decoration: none;
+    color: #76daff;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+
+.hero-section > .right-column > .screenshot img {
+    max-width: 100%;
+    height: auto;
+    align-self: flex-end;
+}

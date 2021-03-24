@@ -1,0 +1,137 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    background-color: black;
+    height: 75px;
+    width: 100%;
+}
+
+.header > .logo img{
+    display: flex;
+    justify-items: center;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+.center-column {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-gap: 5px;
+    }
+    
+    .explore-btn { grid-area: 1 / 1 / 2 / 4; }
+    .links-wrapper { grid-area: 2 / 1 / 3 / 3; }
+    .spark-btn { grid-area: 2 / 3 / 3 / 4; }
+    
+    .center-column {
+        height: 50px;
+        margin-left: 10px;
+    }
+
+.header > .center-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 15px;
+     
+}
+
+
+.links-wrapper > .nav-link a {
+    /* margin-top: 30px; */
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    font-family: "futura", sans-serif;
+    letter-spacing: .1em;
+    
+}
+
+.header > .center-column > .explore-btn {
+
+    margin-top: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;    
+    color: #edd77b;
+    font-weight: 999;
+    letter-spacing: .05em;
+}
+
+.spark {
+    display: flex;
+}
+
+.header > .center-column > .spark-btn {
+    display: flex;
+    height: 25px;
+    width: 30px;
+    margin-top: 4px;
+    color: #808080;
+}
+
+.header > .center-column > .spark-btn a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #808080;
+    margin-left: 100px;
+
+}
+
+.header > .center-column > .spark-btn i {
+    color: #808080;
+    padding-left: 5px;
+    padding-top: 2px;
+
+}
+
+.create-btn {
+    display: flex;
+    /* justify-content: space-around right; */
+    /* width: 150px; */
+    margin-top: 10px;
+}
+
+.create-btn  i {
+    padding: 0px 5px;
+    font-size: 2.7em;
+    color: #4b4c50;
+}
+
+
+
+.btn {
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    -webkit-appearance: none;
+    font-size: 1rem;
+    text-shadow: none;
+    line-height: 1.2;
+    display: inline-block;
+    outline: 0;
+    padding: 10px 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    border-radius: 3px;
+    border: 3px solid transparent;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none !important;
+    background-color: #343436;
+   
+}
+
+.right-column > .create-btn > .button1 {
+    display: flex;
+    width: 125px;
+}
+
+.create-btn > .button1 > .btn i {
+    color: #4bcc78;
+    font-size: 1.2em;
+}
